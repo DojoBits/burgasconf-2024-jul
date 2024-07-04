@@ -7,14 +7,15 @@
 Lets clone the repo with all the necessary files
 
 ```bash
-~$ git clone https://github.com/dojobits
-Cloning into ''...
+~$ git clone git@github.com:DojoBits/burgasconf-2024-jul.git
+Cloning into 'burgasconf-2024-jul'...
+
 ```
 
 Lets move the demo directory to our home directory and change to it.
 
 ```bash
-~$ mv dojobits/demo/ .
+~$ mv burgasconf-2024-jul/demo .
 ~$ cd demo/
 ~/demo$
 ```
