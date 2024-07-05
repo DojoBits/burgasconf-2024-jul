@@ -2,25 +2,8 @@
 
 ## 0. Pre-requisites
 
-### 0.1 Clone repo
 
-Lets clone the repo with all the necessary files
-
-```bash
-~$ git clone git@github.com:DojoBits/burgasconf-2024-jul.git
-Cloning into 'burgasconf-2024-jul'...
-
-```
-
-Lets move the demo directory to our home directory and change to it.
-
-```bash
-~$ mv burgasconf-2024-jul/demo .
-~$ cd demo/
-~/demo$
-```
-
-## 0.1.1 Offline setup
+## 0.1 Offline setup
 
 For doing the workshop exercises offline we'll need a Virtual Machine based on `Ubuntu 24.04`. We can create one, using
 any of the freely available desktop hypervisors:
@@ -139,30 +122,6 @@ Total running VMs: 1
 ~/dojolabs/.vagrant/machines/default/vmware_desktop/172785f5-4122-4d7e-968d-29e49243385b/ubuntu-24.04-aarch64.vmx
 ~$
 ```
-
-Lets get into the VM:
-
-```bash
-~$ vagrant ssh
-```
-
-```shell
-Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-31-generic aarch64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/pro
-
- System information as of Fri May 24 02:03:53 PM UTC 2024
-
-  System load:  0.0                Processes:             252
-  Usage of /:   10.7% of 29.82GB   Users logged in:       0
-  Memory usage: 10%                IPv4 address for eth0: 172.16.237.134
-  Swap usage:   0%
-
-vagrant@ubuntu:~$
-```
-
 Now we have our linux machine lets ssh inside it. With `vagrat` is very simple just use the command below:
 
 ```bash
@@ -180,6 +139,24 @@ Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-31-generic aarch64)
   Usage of /:   10.7% of 29.82GB   Users logged in:       0
   Memory usage: 3%                 IPv4 address for eth0: 192.168.59.149
   Swap usage:   0%
+```
+
+### 0.2.1 Clone repo
+
+Lets clone the repo with all the necessary files
+
+```bash
+~$ git clone git@github.com:DojoBits/burgasconf-2024-jul.git
+Cloning into 'burgasconf-2024-jul'...
+
+```
+
+Lets move the demo directory to our home directory and change to it.
+
+```bash
+~$ mv burgasconf-2024-jul/demo .
+~$ cd demo/
+~/demo$
 ```
 
 ### 0.3 Install Cosign
