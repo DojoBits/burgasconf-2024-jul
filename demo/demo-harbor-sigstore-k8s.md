@@ -146,7 +146,7 @@ Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-31-generic aarch64)
 Lets clone the repo with all the necessary files
 
 ```bash
-~$ git clone git@github.com:DojoBits/burgasconf-2024-jul.git
+~$ git clone https://github.com/DojoBits/burgasconf-2024-jul.git
 Cloning into 'burgasconf-2024-jul'...
 
 ```
